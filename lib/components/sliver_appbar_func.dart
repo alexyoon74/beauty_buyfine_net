@@ -12,7 +12,7 @@ class SliverAppbarFunc {
   }) {
     return Drawer(
       width: 200,
-      backgroundColor: Theme.of(context).colorScheme.surfaceVariant,
+      backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
       child: ListView(
         children: [
           // const UserAccountsDrawerHeader(
@@ -162,7 +162,7 @@ class SliverAppbarFunc {
       pinned: true,
       centerTitle: true,
       expandedHeight: lottieFileName.isNotEmpty ? 120 : 0,
-      backgroundColor: Theme.of(context).colorScheme.surfaceVariant,
+      backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
       foregroundColor: Theme.of(context).colorScheme.onSurfaceVariant,
       title: Text(title),
       flexibleSpace: lottieFileName.isNotEmpty

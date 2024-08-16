@@ -6,8 +6,8 @@ class MyInheritedWidget extends InheritedWidget {
   const MyInheritedWidget({
     super.key,
     required this.constraints,
-    required Widget child,
-  }) : super(child: child);
+    required super.child,
+  });
 
   @override
   bool updateShouldNotify(MyInheritedWidget oldWidget) {

@@ -39,7 +39,7 @@ class DetailCase extends GetView<DetailController> {
               Card(
                 clipBehavior: Clip.hardEdge,
                 margin: const EdgeInsets.fromLTRB(8, 18, 8, 18),
-                color: Theme.of(context).colorScheme.surfaceVariant,
+                color: Theme.of(context).colorScheme.surfaceContainerHighest,
                 elevation: 0,
                 // shape: RoundedRectangleBorder(
                 //   borderRadius: BorderRadius.circular(10.0),

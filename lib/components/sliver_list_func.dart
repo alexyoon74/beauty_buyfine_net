@@ -23,7 +23,7 @@ class SliverListFunc {
     return ResponsiveCenter(
       maxContentWidth: deskTopMaxWidth,
       child: Container(
-        color: Theme.of(context).colorScheme.surfaceVariant,
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
         padding: const EdgeInsets.symmetric(vertical: 10),
         margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
         child: Row(
@@ -57,7 +57,7 @@ class SliverListFunc {
     pageIndex = 0,
   }) {
     String errMsg = '정보가 없습니다';
-    Color containerColor = Theme.of(context).colorScheme.surfaceVariant;
+    Color containerColor = Theme.of(context).colorScheme.surfaceContainerHighest;
     Color onContainerColor = Theme.of(context).colorScheme.onSurfaceVariant;
     if (controller.errMsg.value.isNotEmpty) {
       errMsg = controller.errMsg.value;

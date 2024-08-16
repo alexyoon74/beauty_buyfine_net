@@ -161,7 +161,7 @@ class DetailCase extends GetView<DetailController> {
                 shadowColor:
                     Theme.of(context).colorScheme.secondary.withOpacity(0.6),
                 margin: const EdgeInsets.fromLTRB(8, 10, 8, 10),
-                color: Theme.of(context).colorScheme.surfaceVariant,
+                color: Theme.of(context).colorScheme.surfaceContainerHighest,
                 elevation: 8,
                 // shape: RoundedRectangleBorder(
                 //   borderRadius: BorderRadius.circular(10.0),

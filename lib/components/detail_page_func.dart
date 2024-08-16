@@ -104,7 +104,7 @@ class DetailPageFunc {
     required DetailController controller,
   }) {
     String errMsg = '정보가 없습니다';
-    Color containerColor = Theme.of(context).colorScheme.surfaceVariant;
+    Color containerColor = Theme.of(context).colorScheme.surfaceContainerHighest;
     Color onContainerColor = Theme.of(context).colorScheme.onSurfaceVariant;
     if (controller.errMsg.value.isNotEmpty) {
       errMsg = controller.errMsg.value;

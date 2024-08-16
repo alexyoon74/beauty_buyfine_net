@@ -357,7 +357,7 @@ class ListExperts extends GetView<ListController> {
                 return Card(
                   clipBehavior: Clip.hardEdge,
                   margin: const EdgeInsets.fromLTRB(8, 10, 8, 10),
-                  color: Theme.of(context).colorScheme.surfaceVariant,
+                  color: Theme.of(context).colorScheme.surfaceContainerHighest,
                   elevation: 0,
                   child: DefaultTextStyle(
                     style: TextStyle(
