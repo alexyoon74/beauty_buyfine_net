@@ -1,4 +1,5 @@
 lib/constants/constants.dart
+.vscode/
 # Miscellaneous
 *.class
 *.log
